@@ -3,121 +3,30 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MoveLink – Workout Game Controller</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-
-        body {
-            background: #0f172a;
-            color: #f8fafc;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-        }
-
-        header {
-            background: #1e293b;
-            padding: 15px 40px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.3);
-        }
-
-        header h1 {
-            color: #38bdf8;
-            font-size: 1.5em;
-        }
-
-        nav ul {
-            list-style: none;
-            display: flex;
-            gap: 25px;
-        }
-
-        nav ul li a {
-            text-decoration: none;
-            color: #f1f5f9;
-            font-weight: 500;
-            transition: color 0.3s;
-        }
-
-        nav ul li a:hover {
-            color: #38bdf8;
-        }
-
-        main {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            padding: 40px;
-        }
-
-        main h2 {
-            font-size: 2.4em;
-            color: #38bdf8;
-            margin-bottom: 15px;
-        }
-
-        main p {
-            font-size: 1.1em;
-            color: #cbd5e1;
-            max-width: 700px;
-            margin-bottom: 25px;
-        }
-
-        .cta-button {
-            background: #38bdf8;
-            color: #0f172a;
-            padding: 12px 25px;
-            border-radius: 8px;
-            text-decoration: none;
-            font-weight: bold;
-            transition: background 0.3s;
-        }
-
-        .cta-button:hover {
-            background: #0ea5e9;
-        }
-
-        footer {
-            text-align: center;
-            padding: 20px;
-            background: #1e293b;
-            color: #94a3b8;
-            font-size: 0.9em;
-        }
-    </style>
+    <title>VStep – Workout Game Controller</title>
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
     <header>
-        <h1>MoveLink</h1>
+        <h1>VStep</h1>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Feature</a></li>
-                <li><a href="#">Support</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="feature.html">Feature</a></li>
+                <li><a href="support.html">Support</a></li>
+                <li><a href="about.html">About</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <h2>Turn Your Workout into Game Power</h2>
-        <p>MoveLink connects your mobile motion sensors to your PC, allowing your real-life movements to control your game character. Run to move, jump to leap — get fit while you play!</p>
-        <a href="#" class="cta-button">Get Started</a>
+        <p>VStep connects your phone’s motion sensors to your PC game, allowing you to control your character through movement. Jog, jump, and turn — get fit while you play!</p>
+        <a href="feature.html" class="cta-button">Explore Features</a>
     </main>
 
     <footer>
-        © 2025 MoveLink. All Rights Reserved.
+        © 2025 VStep. All Rights Reserved.
     </footer>
 </body>
 </html>
